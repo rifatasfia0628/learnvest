@@ -1,0 +1,89 @@
+*{
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+}
+
+
+.topbar{
+    height:50px;
+    width:100%;
+    background-color:#332628;
+    border-bottom:2px solid #ACA69E;
+}
+ul{
+    background-color:#332628; width:16%; height:100%;position:fixed;padding-top:5%;
+    text-align:center;
+}
+ul li{
+    list-style:none;padding-bottom:30px;font-size:15px;
+}
+ul a{
+    color:white;
+}
+.add{
+height:auto;
+width:1000px;
+position:relative;
+left:20%;
+border:1px solid black;
+background-color:#CCCAC0;
+padding:20px;
+}
+.add2{
+    height:auto;
+    width:1000px;;
+    position:relative;
+    left:20%;
+    border:2px solid black;
+    padding:20px;
+    }
+.btn1{
+	
+	top:100px;
+	left: 35%;
+}
+.adduser{
+height: 250px;
+width: 250px;
+border:2px solid black;
+}
+.addbooks{
+    height:250px;
+    width: 250px;
+    border:2px solid black;
+}
+.addguideteacher{
+    height:250px;
+    width:250px;
+    border:2px solid black;
+}
+.admincareercard{
+    height:250px;
+    width:250;
+    border:2px solid black;
+}
+.content-table{
+    border-collapse: collapse;
+     width: 100%;
+     border-collapse: collapse;
+ }
+ .content-table thead tr{
+     background-color: #d3d3ff;
+     color: white;
+     text-align: left;
+ }
+ .content-table th, .content-table td {
+     padding: 12px;
+ }
+ .content-table tbody tr{
+     border-bottom: 1px solid #dddddd;
+ }
+ .content-table tbody tr:nth-of-type(even){
+     background-color: #f3f3f3;
+ 
+ }
+ .content-table tbody tr:last-of-type{
+     border-bottom: 2px solid #d3d3ff;
+ 
+ }

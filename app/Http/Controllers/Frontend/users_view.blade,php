@@ -1,0 +1,6 @@
+@extends('frontend.dashboardlayouts.main')
+@section('main-container')
+<div class="add2">
+
+</div>
+@endsection

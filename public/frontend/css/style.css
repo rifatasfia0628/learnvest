@@ -1,0 +1,384 @@
+body{
+	margin:0;
+	padding:0;
+	background-color:#008080;
+	overflow-x:hidden; 
+
+}
+
+.navigation a{
+	color: #89edda;
+}
+.col{
+	color: white;
+}
+/*----------------homepage------------------------------------*/
+.navigation{
+	position:absolute;
+	top: 0;
+	height: 100px;
+	width:full-width;
+	background-color:#008080;}
+	
+.left-menu{
+	position: relative;
+	left: 100px;
+}
+.right-menu{
+	position: relative;
+	left: 500px;}
+
+
+/*------------------------------------------------------------*/
+.loginbox{
+	position: absolute;
+	top: 30%;
+	left: 25%;
+	height: 300px;
+	width: 600px;
+background-color: #d5e7ce;
+
+}
+.headline{
+	position:absolute;
+	top: 20%;
+	left: 40%;
+	color: #ffe5a9;
+}
+.form-floating{
+	position: relative;
+	top: 20%;
+	left: 10%;
+	width: 500px;
+
+}
+.btn{
+	position: relative;
+	top: 30%;
+	left: 30%;
+	width:200px;
+
+}
+.registrationbox{
+	 height: 600px;
+	 width: 800px;
+	 position: absolute;
+	top: 30%;
+	left: 20%;
+	padding-top: 100px;
+	padding-left:50px;
+	padding-right:50px;
+background-color: #d5e7ce;
+}
+.sec{
+	top: 40px;
+}
+.btn1{
+	
+	top:100px;
+	left: 35%;
+}
+.headline1{
+	position:absolute;
+	top: 15%;
+	left: 45%;
+}
+.searchcard{
+	height: 400px;
+	width: 300px;
+	background-color:#8fffe5 ;
+}
+/*********************search************************/
+.card1{
+	height: 350px;
+	width: 350px;
+	color: #ffe5a9;
+	font-family: 'Roboto Condensed', sans-serif;
+	background-color:transparent;
+	border: 2px solid #e3fdfd;
+	border-radius: 20px;
+}
+.card2{
+	position: relative;
+	top: 20%;
+	height: auto;
+	padding-bottom: 10px;
+	width: 550px;
+	color: #ffe5a9;
+	font-family: 'Roboto Condensed', sans-serif;
+
+	background-color: transparent;
+	border: 2px solid #e3fdfd;
+		border-radius: 20px;
+		
+}
+.search{
+	position: absolute;
+	width: full-width;
+	top: 30%;
+	left: 10%;
+}
+.cardbody{
+	position: relative;
+	top: 10%;
+	left: 20px;
+}
+.search-box{
+	position:relative;
+	top:0;
+	left:0;
+	transform:-50%,-50%;
+    background:transparent;
+    height:50px;
+    width:300px;
+    border-radius:40px;
+    padding:5px;
+}
+.box2{
+	height:50px;
+    width:500px;
+}
+.search-box:hover>.search-text
+{
+	width:200px;
+	padding:5px;
+}
+
+.search-btn{
+	color:#bcd4e6;
+	float:right;
+	width:40px;
+	height:40px;
+	border-radius:50%;
+	background:white;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	transition:0.4s;
+}
+.search-text{
+	border:none;
+	background:none;
+	outline:none;
+	float:left;
+	padding:0;
+	color:#FFF6AD;
+	font-size:16px;
+	line-height:30px;
+	width:0px;
+	transition:0.4s;
+}
+/***************************************************/
+/*************guidecard****************************/
+.guidecard{
+	position:absolute;
+	top: 35%;
+	left: 0%;
+	height: 550px;
+	width:full-width;
+	padding: 20px;
+	 border-top: 2px solid white;
+}
+.guidecard:hover{
+	 border-top: 2px solid black;
+	  border-bottom: 2px solid black;
+	  }
+.card3{
+	background-color: #b4eeb4;
+	border: 2px solid #004953;
+}
+.card3:hover{
+	background-color: #004953;
+	border-radius: 20px;
+	border: 2px solid floralwhite;
+}
+.card3:hover > p{
+	color:  #ffe5a9;
+}
+
+.guidecard h5{
+	color: white;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 2rem;
+	font-weight: 600px;
+}
+
+.course{
+	/*height:min-height;*/
+	width: 1000px;
+	position:absolute;
+	top: 130%;
+	left: 15%;
+	 border: 5px double red;
+}
+.headline2{
+	position:absolute;
+	top: 140%;
+	left: 35%;
+	color: #ffe5a9;
+}
+/******************booklist******************/
+.booklist{
+	position: absolute;
+	top: 155%;
+	left:0%;
+	height: 300px;
+	width:100%;
+	padding: 20px;
+	 border-top: 2px solid white;
+}
+.card5{
+	margin: 5px;
+	background-color: #b4eeb4;
+	border: 2px solid #004953;
+	color: black;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 1rem;
+
+}
+.card5:hover{
+	background-color: #004953;
+	border: 2px solid white;
+	color: #f0f8ff;
+}
+
+.student{
+	position: absolute;
+	top: 220%;
+	left: 0%;
+	height: 200px;
+	width:100%;
+	padding: 20px;
+	border-top: 2px solid white;
+}
+.student h1{
+	position: relative;
+	left: 35%;
+}
+.row2{
+	position: relative;
+	left: 15%;
+}
+.btn2{
+	height: 50px;
+	width: 250px;
+	margin-right: 20px;
+}
+/*****************************************************/
+.notice{
+	position:absolute;
+	top:20%;
+	height:auto;
+	width:100%;
+
+
+}
+.noticecard{
+	background-color: #bcd4e6;
+	border: 2px solid #004953;
+	border-radius: 10px;
+	margin: 10px 0px 10px 0px;
+
+	padding: 10px;
+}
+.noticecard h5{
+	color: white;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 2rem;
+
+}
+.noticecard:hover>h5{
+		color: #004953;
+}
+.noticecard:hover{
+	background-color: #ffe5a9;
+	border: 2px solid white;
+	border-radius: 10px;
+	margin: 10px 0px 10px 0px;
+
+	padding: 10px;
+}
+.notice:hover{
+	border-top: 2px solid white;
+	background-color: #004953;
+
+}
+/******************************studenttable********************************/
+.std-info{
+   position: absolute;
+   top: 15%;
+	height: auto;
+	width: 100%;
+
+	background-color: white;
+}
+.content-table{
+   border-collapse: collapse;
+	width: 100%;
+	border-collapse: collapse;
+}
+.content-table thead tr{
+	background-color: #d3d3ff;
+	color: white;
+	text-align: left;
+}
+.content-table th, .content-table td {
+	padding: 12px;
+}
+.content-table tbody tr{
+	border-bottom: 1px solid #dddddd;
+}
+.content-table tbody tr:nth-of-type(even){
+	background-color: #f3f3f3;
+
+}
+.content-table tbody tr:last-of-type{
+	border-bottom: 2px solid #d3d3ff;
+
+}
+.research-box{
+	width:100%;
+	height: auto;
+	background-color: #b4eeb4;
+	position: absolute;
+	top: 20%;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+
+}
+.card6{
+	background-color: #bfceea;
+	border: 2px solid #004953;
+	border-radius: 10px;
+	height: auto;
+	width: 300px;
+	padding: 10px;
+}
+.card6 p{
+	color: white;
+}
+
+.card6:hover{
+	background-color: #004953;
+	border: 2px solid white;
+	border-radius: 10px;
+}
+.card6:hover>h5{
+	color:  #ffe59a;
+	font-size: 2rem;
+}
+.footer{
+	margin:0;
+	padding:0;
+	position:absolute;
+	top:100%;
+	height:30px;
+	width:100%;
+	background-color:white;
+	z-index:10;
+}
+
+
